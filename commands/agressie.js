@@ -3,6 +3,6 @@ module.exports = {
     description: "this is a ping command!",
     async execute(message) {
         message.delete()
-        message.reply('stop met anne wil pesten');
+        message.reply('stop met - pesten');
     }
 }

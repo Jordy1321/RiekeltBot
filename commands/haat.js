@@ -9,6 +9,6 @@ module.exports = {
             user = '<@' + message.mentions.users.first() + '>' || client.users.cache.get(args[0]) + '>'
         }
         message.delete()
-        message.reply(`anne wil gaat ${user} meppen`);
+        message.reply(`- gaat ${user} meppen`);
     }
 }
